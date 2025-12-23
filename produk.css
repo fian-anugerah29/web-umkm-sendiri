@@ -1,0 +1,206 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+}
+
+header {
+  background: #6b4226;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Konten Utama */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h2, main h3 {
+  color: #333;
+}
+
+main p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Container Produk */
+.produk-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Kartu Produk */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+  padding: 0 10px;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #6b4226;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #4e2f1d;
+}
+
+/* Tabel Produk */
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Rata kanan hanya untuk kolom 'Produk' */
+table td:first-child {
+  text-align: left;
+  padding-leftt: 15px;
+}
+
+table th {
+  background: #6b4226;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Profil Produk */
+.profil-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.profil-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+  padding-bottom: 15px;
+}
+
+.profil-card:hover {
+  transform: scale(1.03);
+}
+
+.profil-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.profil-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.profil-card p {
+  padding: 0 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Video Galeri */
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.video-container video:hover {
+  transform: scale(1.05);
+}
+
+.video-container p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+}

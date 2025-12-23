@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - KUE Balok Moncrot </title>
+  <link rel="stylesheet" href="kontak.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>KUE BALOK MONCROT</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html" class="active">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="kontak-page">
+    <h2>Hubungi Kami</h2>
+    <p class="subtitle">Pilih cara yang paling nyaman untuk terhubung dengan KUE Balok Moncrot.</p>
+
+    <div class="kontak-options">
+      <!-- Hubungi lewat Web -->
+      <div class="kontak-card">
+        <i class="fas fa-envelope-open-text"></i>
+        <h3>Hubungi lewat Web</h3>
+        <p>Isi formulir online, pesanmu akan langsung kami terima.</p>
+        <a href="#form-section" class="btn">Buka Formulir</a>
+      </div>
+
+      <!-- Hubungi via WhatsApp -->
+      <div class="kontak-card">
+        <i class="fab fa-whatsapp"></i>
+        <h3>WhatsApp</h3>
+        <p>Klik tombol di bawah untuk langsung chat via WhatsApp.</p>
+        <a href="https://wa.me/6281234567890?text=Halo%20Kopi%20Nusantara,%20saya%20ingin%20bertanya%20tentang%20produk." target="_blank" class="btn wa">Chat WA</a>
+      </div>
+
+      <!-- Hubungi via Aplikasi -->
+      <div class="kontak-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Aplikasi</h3>
+        <p>Pesan kopi kami langsung via aplikasi mitra.</p>
+        <a href="https://gofood.co.id" target="_blank" class="btn app">Pesan di GoFood</a>
+      </div>
+    </div>
+
+    <!-- Formulir -->
+    <section id="form-section" class="form-container">
+      <h3>Formulir Kontak</h3>
+      <form action="#" method="post">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..."></textarea>
+
+        <button type="submit"><i class="fas fa-paper-plane"></i> Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 KUE Balok Moncrot</p>
+  </footer>
+</body>
+</html>

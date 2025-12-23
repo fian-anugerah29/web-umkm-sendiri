@@ -1,0 +1,150 @@
+/* General reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #faf7f2;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #4b2c20;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #f7c873;
+}
+
+/* Hero */
+.hero-tentang {
+  background: url('images/hero-tentang.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero-tentang h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Section */
+main section {
+  padding: 50px 20px;
+  text-align: center;
+}
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4b2c20;
+}
+
+/* Tim */
+.tim-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.anggota {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+}
+.anggota img {
+  width: 100%;
+  border-radius: 12px;
+}
+.anggota h3 {
+  margin: 15px 0 5px;
+  color: #4b2c20;
+}
+
+/* Jadwal */
+.tabel-jadwal {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.tabel-jadwal th, .tabel-jadwal td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+}
+.tabel-jadwal th {
+  background-color: #4b2c20;
+  color: #fff;
+}
+.tabel-jadwal tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.tabel-jadwal tr:hover {
+  background-color: #f7c873;
+  color: #4b2c20;
+}
+
+/* Instagram */
+.instagram .feed {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.instagram .ig-post {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.instagram .ig-post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.btn-ig {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4b2c20;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn-ig:hover {
+  background: #f7c873;
+  color: #4b2c20;
+}
+
+/* Footer */
+footer {
+  background: #4b2c20;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

@@ -1,0 +1,250 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfcf8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4b2c20;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #8b5e3c;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/kopi.webp') center/cover no-repeat;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Profil */
+.profil {
+  padding: 30px;
+  text-align: center;
+}
+
+.profil-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Produk List (lama, sudah tidak dipakai kalau pakai kartu) */
+.produk-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.produk-list li {
+  background: #eee;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Produk Unggulan (baru versi card) */
+.unggulan {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.unggulan h2 {
+  margin-bottom: 20px;
+  color: #4b2c20;
+}
+
+.produk-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produk-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.produk-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.produk-card h4 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #4b2c20;
+}
+
+.produk-card p {
+  font-size: 14px;
+  padding: 0 10px;
+  color: #555;
+}
+
+.produk-card .btn {
+  margin: 15px 0;
+  display: inline-block;
+}
+
+/* Hover effect */
+.produk-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* Produksi Steps */
+.produksi {
+  padding: 30px;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px auto;
+  max-width: 600px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.step img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Tim Kami */
+.tim {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.tim-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tim-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 180px;
+}
+
+.tim-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Sosmed */
+.sosmed {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #4b2c20;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #8b5e3c;
+}
+
+/* Footer */
+footer {
+  background: #4b2c20;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
